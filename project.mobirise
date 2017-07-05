@@ -1003,7 +1003,7 @@
               {
                 "image": "@THEME_PATH@/components/_images/carousel/1.jpg",
                 "active": true,
-                "showButtons": true,
+                "showButtons": false,
                 "showText": true,
                 "showTitle": true,
                 "playVideo": false,

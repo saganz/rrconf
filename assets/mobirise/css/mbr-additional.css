@@ -1351,6 +1351,25 @@ pre {
 .cid-qovsvZZrNx .mbr-slider .modal-body .close {
   background: #1b1b1b;
 }
+.cid-qozMI5vOBV {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #efefef;
+}
+@media (min-width: 992px) {
+  .cid-qozMI5vOBV .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 992px) {
+  .cid-qozMI5vOBV .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-qozMI5vOBV .mbr-text {
+  color: #767676;
+  text-align: left;
+}
 .cid-qop28krEjP {
   padding-top: 90px;
   padding-bottom: 90px;

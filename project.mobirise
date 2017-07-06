@@ -31,7 +31,7 @@
     "favicon": "@PROJECT_PATH@/assets/images/icons-phone11-127x196.png",
     "noImageResize": "",
     "versionFirst": "4.0.10",
-    "uniqCompNum": 20,
+    "uniqCompNum": 31,
     "versionPublish": "4.0.10"
   },
   "pages": {
@@ -420,7 +420,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable position-absolute>\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://softwareag.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/sag-logo-rgb-1106x169.png\" alt=\"Mobirise\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-white display-4\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\">\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#header7-1\" data-app-selector=\".nav-link,.dropdown-item\" data-app-btn=\"true\">                        <span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;HOME</a>\n                </li><li class=\"nav-item dropdown\"><a class=\"nav-link link dropdown-toggle text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-btn=\"true\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-photo mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        PRODUCTS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-white\" href=\"index.html#features15-h\" data-app-selector=\".nav-link, .dropdown-item\">Process Analysis</a><a data-app-btn=\"true\" class=\"dropdown-item text-white\" href=\"#\" data-app-selector=\".nav-link, .dropdown-item\">process</a><a data-app-btn=\"true\" class=\"dropdown-item text-white\" href=\"#\" data-app-selector=\".nav-link, .dropdown-item\">In Memory</a></div></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#testimonials1-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-btn=\"true\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>                                                Contact Us                    </a>\n                </li>\n            </ul>\n            <div mbr-if=\"showButtons\" mbr-buttons class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-primary display-4\" href=\"https://mobirise.com\" data-app-btn=\"true\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a>\n            </div>\n        </div>\n    </nav>\n</section>\n",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable position-absolute>\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://softwareag.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/rrforum-250x43.png\" alt=\"Mobirise\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-white display-4\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\">\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html#header7-1\" data-app-selector=\".nav-link,.dropdown-item\" data-app-btn=\"true\">                        <span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;HOME</a>\n                </li><li class=\"nav-item dropdown open\"><a class=\"nav-link link dropdown-toggle text-black\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-btn=\"true\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-photo mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        PRODUCTS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-black\" href=\"index.html#features15-h\" data-app-selector=\".nav-link, .dropdown-item\">Process Analysis</a><a data-app-btn=\"true\" class=\"dropdown-item text-black\" href=\"#\" data-app-selector=\".nav-link, .dropdown-item\">process</a><a data-app-btn=\"true\" class=\"dropdown-item text-black\" href=\"#\" data-app-selector=\".nav-link, .dropdown-item\">In Memory</a></div></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html#testimonials1-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-btn=\"true\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>                                                Contact Us                    </a>\n                </li>\n            </ul>\n            <div mbr-if=\"showButtons\" mbr-buttons class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-primary display-4\" href=\"https://mobirise.com\" data-app-btn=\"true\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a>\n            </div>\n        </div>\n    </nav>\n</section>\n",
           "_cid": "qomXAr6Qtp",
           "_anchor": "menu1-0",
           "_protectedParams": [],
@@ -454,7 +454,7 @@
             }
           },
           "_name": "header7",
-          "_customHTML": "<section class=\"header7\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, \n                    'mbr-parallax-background': bg.parallax}\">\n                    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"200\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/sag-homepage-digital-transformation-banner-web-ready-tcm89-140498-nologo-972x374.png\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0899cc\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color 2\" value=\"#8bcfed\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#0f7699\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"media-content align-right\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    Digital Business Platform</h1>\n                <div class=\"mbr-section-text mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                       The Digital Business Platform is your technology layer that enhances rather than replaces your current core IT systems. Gain a future-proof architecture and build differentiating applications to increase your competitiveness and success in a digital world.\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons>\n                         <a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"index.html#features12-6\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; &nbsp; &nbsp; Plan</a> <a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"index.html#features2-3\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-contact-form mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; &nbsp; &nbsp;Build</a> <a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"index.html#features2-3\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-contact-form mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;Monitor</a> <a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"index.html#features6-9\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-photos mbr-iconfont mbr-iconfont-btn\"></span>Analyse</a> \n                         \n                 </div>\n            </div>\n\n            <div mbr-video class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <iframe src=\"https://www.youtube.com/watch?v=qyVgBWe2YkU&t=17s&loop=1&autoplay=0\"></iframe>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header7\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, \n                    'mbr-parallax-background': bg.parallax}\">\n                    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"140\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/sag-homepage-digital-transformation-banner-web-ready-tcm89-140498-nologo-972x374.png\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0899cc\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color 2\" value=\"#8bcfed\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#0f7699\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"media-content align-right\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    Digital Business Platform</h1>\n                <div class=\"mbr-section-text mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                       The Digital Business Platform is your technology layer that enhances rather than replaces your current core IT systems. Gain a future-proof architecture and build differentiating applications to increase your competitiveness and success in a digital world.\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons>\n                         <a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"index.html#features12-6\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; &nbsp; &nbsp; Plan</a> <a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"index.html#features2-3\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-contact-form mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; &nbsp; &nbsp;Build</a>  <a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"index.html#features6-9\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-photos mbr-iconfont mbr-iconfont-btn\"></span>Analyse</a> \n                         \n                 </div>\n            </div>\n\n            <div mbr-video class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <iframe src=\"https://www.youtube.com/watch?v=qyVgBWe2YkU&t=17s&loop=1&autoplay=0\"></iframe>\n            </div>\n\n        </div>\n    </div>\n</section>",
           "_cid": "qon55P8ctM",
           "_anchor": "header7-1",
           "_protectedParams": [],
@@ -539,7 +539,7 @@
             }
           },
           "_name": "features12",
-          "_customHTML": "<section class=\"features12\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"60\" step=\"1\" value=\"42\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"2\">2</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#cde7f6\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            Business and IT Transformation</h2>\n        <h3 class=\"mbr-section-subtitle pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Business and IT Transformation (BITT) is the starting point for many of the use cases supported by Software AG´s Digital Business Platform. Covering the design and planning aspects of the digital transformation, the BITT solution is comprised of two market-leading products: ARIS and Alfabet.</h3>\n\n        <div class=\"media-container-row pt-5\">\n            <div class=\"block-content align-right\">\n                <div class=\"card pl-3 pr-3 pb-5\">\n                    <div class=\"mbr-card-img-title\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                             <a href=\"index.html#features15-h\"><span mbr-icon class=\"mbr-iconfont mbri-like\"></span></a>\n                        </div>\n                        <div class=\"mbr-crt-title\">\n                            <h4 class=\"card-title py-2 mbr-crt-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-crt-title\">\n                                Business Process Analysis</h4>\n                        </div>\n                    </div>                \n\n                    <div class=\"card-box\">\n                        <p class=\"mbr-text mbr-section-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">Software AG’s ARIS Business Process Analysis Platform is ideal \n<br>for analyzing and optimizing business processes for better productivity.<br>Achieve continuous process improvement along your entire journey<br>to becoming a Digital Enterprise.</p>\n                    </div>\n                </div>\n\n                <div class=\"card pl-3 pr-3 pb-5\" mbr-if=\"cardsAmount > 2\">\n                    <div class=\"mbr-card-img-title\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbr-iconfont mbri-protect\"></span>\n                        </div>\n                        <div class=\"mbr-crt-title\">\n                            <h4 class=\"card-title py-2 mbr-crt-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-crt-title\">\n                                Risk and Compliance</h4>\n                        </div>\n                    </div>\n                    <div class=\"card-box\">\n                        <p class=\"mbr-text mbr-section-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">Software AG's ARIS Governance, Risk &amp; Compliance Management \n<br>Platform enables enterprises to confidently meet internal and external \n<br>legal requirements and standards while efficiently managing risks.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/bus-trans-940x627.png\" alt=\"Mobirise\" title>\n            </div>\n\n            <div class=\"block-content align-left  \">\n                <div class=\"card pl-3 pr-3 pb-5\">\n                    <div class=\"mbr-card-img-title\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                             <span mbr-icon class=\"mbri-features mbr-iconfont\"></span>\n                        </div>\n                        <div class=\"mbr-crt-title\">\n                            <h4 class=\"card-title py-2 mbr-crt-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-crt-title\">\n                                Enterprise Architecure</h4>\n                        </div>\n                    </div>                \n\n                    <div class=\"card-box\">\n                        <p class=\"mbr-text mbr-section-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">\n                            Software AG's Alfabet Enterprise Architecture Management Platform provides a collaborative platform for aligning the IT landscape with the business to guide competitive transformation.<br><br>\n                        </p>\n                    </div>\n                </div>\n\n                <div class=\"card pl-3 pr-3 pb-5\" mbr-if=\"cardsAmount > 2\">\n                    <div class=\"mbr-card-img-title\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <a href=\"http://www2.softwareag.com/corporate/products/aris_alfabet/it_portfolio/default.aspx\"><span mbr-icon class=\"mbr-iconfont mbri-image-slider\"></span></a>\n                        </div>\n                        <div class=\"mbr-crt-title\">\n                            <h4 class=\"card-title py-2 mbr-crt-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-crt-title\">\n                                Portfolio Management</h4>\n                        </div>\n                    </div>\n                    <div class=\"card-box\">\n                        <p class=\"mbr-text mbr-section-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">\n                            Software AG's Alfabet IT Portfolio Management Platform provides decision-makers with insight into the IT portfolio to make the right IT investment decisions and to plan how IT will support the business in the future.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features12\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"60\" step=\"1\" value=\"42\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"2\">2</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/fujitsu-tcm213-973x375.png\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#cde7f6\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            Business and IT Transformation</h2>\n        <h3 class=\"mbr-section-subtitle pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Business and IT Transformation (BITT) is the starting point for many of the use cases supported by Software AG´s Digital Business Platform. Covering the design and planning aspects of the digital transformation, the BITT solution is comprised of two market-leading products: ARIS and Alfabet.</h3>\n\n        <div class=\"media-container-row pt-5\">\n            <div class=\"block-content align-right\">\n                <div class=\"card pl-3 pr-3 pb-5\">\n                    <div class=\"mbr-card-img-title\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                             <a href=\"index.html#features6-l\"><span mbr-icon class=\"mbr-iconfont mbri-like\"></span></a>\n                        </div>\n                        <div class=\"mbr-crt-title\">\n                            <h4 class=\"card-title py-2 mbr-crt-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-crt-title\">\n                                Business Process Analysis</h4>\n                        </div>\n                    </div>                \n\n                    <div class=\"card-box\">\n                        <p class=\"mbr-text mbr-section-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">Software AG’s ARIS Business Process Analysis Platform is ideal \n<br>for analyzing and optimizing business processes for better productivity.<br>Achieve continuous process improvement along your entire journey<br>to becoming a Digital Enterprise.</p>\n                    </div>\n                </div>\n\n                <div class=\"card pl-3 pr-3 pb-5\" mbr-if=\"cardsAmount > 2\">\n                    <div class=\"mbr-card-img-title\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbr-iconfont mbri-protect\"></span>\n                        </div>\n                        <div class=\"mbr-crt-title\">\n                            <h4 class=\"card-title py-2 mbr-crt-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-crt-title\">\n                                Risk and Compliance</h4>\n                        </div>\n                    </div>\n                    <div class=\"card-box\">\n                        <p class=\"mbr-text mbr-section-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">Software AG's ARIS Governance, Risk &amp; Compliance Management \n<br>Platform enables enterprises to confidently meet internal and external \n<br>legal requirements and standards while efficiently managing risks.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/bus-trans-940x627.png\" alt=\"Mobirise\" title>\n            </div>\n\n            <div class=\"block-content align-left  \">\n                <div class=\"card pl-3 pr-3 pb-5\">\n                    <div class=\"mbr-card-img-title\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                             <span mbr-icon class=\"mbri-features mbr-iconfont\"></span>\n                        </div>\n                        <div class=\"mbr-crt-title\">\n                            <h4 class=\"card-title py-2 mbr-crt-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-crt-title\">\n                                Enterprise Architecure</h4>\n                        </div>\n                    </div>                \n\n                    <div class=\"card-box\">\n                        <p class=\"mbr-text mbr-section-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">\n                            Software AG's Alfabet Enterprise Architecture Management Platform provides a collaborative platform for aligning the IT landscape with the business to guide competitive transformation.<br><br>\n                        </p>\n                    </div>\n                </div>\n\n                <div class=\"card pl-3 pr-3 pb-5\" mbr-if=\"cardsAmount > 2\">\n                    <div class=\"mbr-card-img-title\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <a href=\"http://www2.softwareag.com/corporate/products/aris_alfabet/it_portfolio/default.aspx\"><span mbr-icon class=\"mbr-iconfont mbri-image-slider\"></span></a>\n                        </div>\n                        <div class=\"mbr-crt-title\">\n                            <h4 class=\"card-title py-2 mbr-crt-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-crt-title\">\n                                Portfolio Management</h4>\n                        </div>\n                    </div>\n                    <div class=\"card-box\">\n                        <p class=\"mbr-text mbr-section-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">\n                            Software AG's Alfabet IT Portfolio Management Platform provides decision-makers with insight into the IT portfolio to make the right IT investment decisions and to plan how IT will support the business in the future.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qonHthXWsk",
           "_anchor": "features12-6",
           "_protectedParams": [],
@@ -609,7 +609,7 @@
             }
           },
           "_name": "features6",
-          "_customHTML": "<section class=\"features6\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/06.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=HyYpY69Zk6Y\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-3\">\n                    <span mbr-icon class=\"mbr-iconfont mbri-image-gallery\"></span>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                        Streaming Analytics</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                        Software AG's Apama Streaming Analytics—supporting predictive analytics—is the world’s #1 platform for streaming analytics and intelligent automated action on fast-moving big data. With Apama, you can analyze and act on high-volume business operations in real time.<br><br>\n                    </p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-3\">\n                    <span mbr-icon class=\"mbr-iconfont mbri-magic-stick\"></span>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                        Predictive Analytics</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Make insight-driven decisions across your enterprise. Deploy artificial intelligence, machine learning and predictive analytics models based on open standards. With Zementis Predictive Analytics, you can glean real-time insights from any amount of data, anywhere, anytime, to make informed business decisions.\n                    </p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-3\">\n                    <span mbr-icon class=\"mbri-responsive mbr-iconfont\"></span>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                        Unique Styles\n                    </h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Mobirise offers many site blocks in several themes, and though these blocks are pre-made, they are flexible.\n                    </p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-3\">\n                    <span mbr-icon class=\"mbri-desktop mbr-iconfont\"></span>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                        Unlimited Sites\n                    </h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n                    </p>\n                </div>\n            </div>\n\n        </div>\n\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"features6\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/06.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=HyYpY69Zk6Y\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-3\">\n                    <span mbr-icon class=\"mbr-iconfont mbri-image-gallery\"></span>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                        Streaming Analytics</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                        Software AG's Apama Streaming Analytics—supporting predictive analytics—is the world’s #1 platform for streaming analytics and intelligent automated action on fast-moving big data. With Apama, you can analyze and act on high-volume business operations in real time.<br><br><br>\n                    </p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-3\">\n                    <span mbr-icon class=\"mbr-iconfont mbri-magic-stick\"></span>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                        Predictive Analytics</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Make insight-driven decisions across your enterprise. Deploy artificial intelligence, machine learning and predictive analytics models based on open standards. With Zementis Predictive Analytics, you can glean real-time insights from any amount of data, anywhere, anytime, to make informed business decisions.\n                    </p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-3\">\n                    <span mbr-icon class=\"mbr-iconfont mbri-growing-chart\"></span>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                        Data Visualisation</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Mobirise offers many site blocks in several themes, and though these blocks are pre-made, they are flexible.\n                    </p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-3\">\n                    <span mbr-icon class=\"mbr-iconfont mbri-edit\"></span>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                        Operational Intell</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n                    </p>\n                </div>\n            </div>\n\n        </div>\n\n    </div>\n\n</section>",
           "_cid": "qooZOrHAHz",
           "_anchor": "features6-9",
           "_protectedParams": [],
@@ -625,432 +625,157 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-section-subtitle": {
+            "h4": {
+              "text-align": "left",
+              "font-weight": "500"
+            },
+            "p": {
               "color": "#767676",
-              "font-weight": "300"
+              "text-align": "left",
+              "margin-bottom": "0"
             },
-            ".media-container-row": {
-              "word-wrap": "break-word",
-              "word-break": "break-word",
-              "align-items": "stretch",
-              "-webkit-align-items": "stretch"
+            ".card-img": {
+              "text-align": "left",
+              "background-color": "#fff",
+              "padding": "3rem 2.5rem 0 2.5rem"
             },
-            ".card_cont": {
-              "-o-transition": "all .5s",
-              "-ms-transition": "all .5s",
-              "-moz-transition": "all .5s",
-              "-webkit-transition": "all .5s",
-              "transition": "all .5s",
-              "-o-backface-visibility": "hidden",
-              "-ms-backface-visibility": "hidden",
-              "-moz-backface-visibility": "hidden",
-              "-webkit-backface-visibility": "hidden",
-              "backface-visibility": "hidden",
-              "position": "absolute",
-              "top": "0px",
-              "left": "0px",
-              "text-align": "center",
-              "background-color": "#eee"
+            ".card-img span": {
+              "font-size": "72px",
+              "color": "#707070"
             },
-            ".card-front": {
-              "z-index": "2",
-              "padding": "0",
-              "width": "100%",
-              "height": "100%",
-              "overflow": "hidden",
-              "img": {
-                "min-height": "100%",
-                "min-width": "100%",
-                "width": "auto",
-                "max-width": "600px"
-              }
-            },
-            ".card_back": {
-              "width": "100%",
-              "height": "100%",
-              "padding": "30px 30px",
-              "color": "#ffffff",
-              "background-color": "@crdBckColor",
-              "z-index": "1",
-              "margin": "0",
-              "text-align": "center",
-              "overflow": "hidden",
-              "& when (@animation = 'horizontal')": {
-                "-o-transform": "rotateY(-180deg)",
-                "-ms-transform": "rotateY(-180deg)",
-                "-moz-transform": "rotateY(-180deg)",
-                "-webkit-transform": "rotateY(-180deg)",
-                "transform": "rotateY(-180deg)"
-              },
-              "& when (@animation = 'vertical')": {
-                "-o-transform": "rotateX(-180deg)",
-                "-ms-transform": "rotateX(-180deg)",
-                "-moz-transform": "rotateX(-180deg)",
-                "-webkit-transform": "rotateX(-180deg)",
-                "transform": "rotateX(-180deg)"
-              }
-            },
-            ".card": {
-              "min-height": "300px"
-            },
-            ".card:hover": {
-              ".card-front": {
-                "z-index": "1",
-                "& when (@animation = 'horizontal')": {
-                  "-o-transform": "rotateY(180deg)",
-                  "-ms-transform": "rotateY(180deg)",
-                  "-moz-transform": "rotateY(180deg)",
-                  "-webkit-transform": "rotateY(180deg)",
-                  "transform": "rotateY(180deg)"
-                },
-                "& when (@animation = 'vertical')": {
-                  "-o-transform": "rotateX(180deg)",
-                  "-ms-transform": "rotateX(180deg)",
-                  "-moz-transform": "rotateX(180deg)",
-                  "-webkit-transform": "rotateX(180deg)",
-                  "transform": "rotateX(180deg)"
-                }
-              },
-              ".card_back": {
-                "z-index": "2",
-                "& when (@animation = 'horizontal')": {
-                  "-o-transform": "rotateY(0deg)",
-                  "-ms-transform": "rotateY(0deg)",
-                  "-moz-transform": "rotateY(0deg)",
-                  "-webkit-transform": "rotateY(0deg)",
-                  "transform": "rotateY(0deg)"
-                },
-                "& when (@animation = 'vertical')": {
-                  "-o-transform": "rotateX(0deg)",
-                  "-ms-transform": "rotateX(0deg)",
-                  "-moz-transform": "rotateX(0deg)",
-                  "-webkit-transform": "rotateX(0deg)",
-                  "transform": "rotateX(0deg)"
-                }
-              }
-            },
-            ".builderCard": {
-              ".card_back": {
-                "border-bottom-left-radius": "100px"
-              },
-              ".card_cont": {
-                "-o-backface-visibility": "hidden",
-                "-ms-backface-visibility": "hidd",
-                "-moz-backface-visibility": "visible",
-                "-webkit-backface-visibility": "visible",
-                "backface-visibility": "visible"
-              }
+            ".card-box": {
+              "padding": "0rem 2.5rem 3rem 2.5rem",
+              "background-color": "#fff"
             }
           },
-          "_name": "features15",
-          "_customHTML": "<section class=\"features15\" group=\"Animated Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitles\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Block Titles\" name=\"showTitles\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <input type=\"color\" title=\"Card Back Color\" name=\"crdBckColor\" value=\"#55b4d4\"> \n        <select title=\"Animation\" name=\"animation\">\n            <option value=\"horizontal\" selected>Horizontal</option>\n            <option value=\"vertical\">Vertical</option>\n        </select>\n\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/bg-p-1920x630.png\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#f9f9f9\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            ARIS Business Process Analysis</h2>\n        <h3 class=\"mbr-section-subtitle display-5 align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Click on the bottom left corner of the card to change the front image. In browser this corner will not be shown.\n        </h3>\n\n        <div class=\"media-container-row container pt-5 mt-2\" mbr-cards=\"bootstrap\">\n\n            <div class=\"col-12 col-md-6 mb-4\" mbr-class=\"{'col-lg-4': cardsAmount == '3','col-lg-3': cardsAmount == '4'}\">\n                <div class=\"card flip-card p-5 align-center\">\n                    <div class=\"card-front card_cont\">\n                        <img src=\"@PROJECT_PATH@/assets/images/aware1-100x102.png\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card_back card_cont\">\n                        <h4 class=\"card-title display-5 py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\n                            ARIS Aware</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            ARIS Aware allows you to analyse all relevant data and visualize it in an intuitive &nbsp;way. This helps you to make better decisions and to gain rich insights into your company.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-12 col-md-6 mb-4\" mbr-class=\"{'col-lg-4': cardsAmount == '3','col-lg-3': cardsAmount == '4'}\" mbr-if=\"cardsAmount > 1\">\n                \n                <div class=\"card flip-card p-5 align-center\">\n                    <div class=\"card-front card_cont\">\n                        <img src=\"@PROJECT_PATH@/assets/images/bars-64x64.png\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card_back card_cont\">\n                        <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\n                            ARIS Connect</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Connect, communicate and collaborate on processes easily on a social network. No BPM experience is required.&nbsp;</p>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"col-12 col-md-6 mb-4\" mbr-class=\"{'col-lg-4': cardsAmount == '3','col-lg-3': cardsAmount == '4'}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card flip-card p-5 align-center\">\n                    <div class=\"card-front card_cont\">\n                        <img src=\"@PROJECT_PATH@/assets/images/186015268-2122x1415.png\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card_back card_cont\">\n                        <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\n                            ARIS for SAP</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Accelerate how you design, document and optimize your SAP solution. ARIS for SAP Solutions offers a fast, efficient way to map processes to your SAP solution.\n                        </p>\n                    </div>\n                </div> \n            </div>\n\n            <div class=\"col-12 col-md-6 mb-4\" mbr-class=\"{'col-lg-4': cardsAmount == '3','col-lg-3': cardsAmount == '4'}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card flip-card p-5 align-center\">\n                    <div class=\"card-front card_cont\">\n                        <img src=\"../_images/background3.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card_back card_cont\">\n                        <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">&nbsp;ARIS Mobile</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            With ARIS Mobile/API Access, you can develop your own personalized applications . Assure access to process information on any device.\n                        </p>\n                    </div>\n                </div> \n            </div>\n        </div>\n</div></section>",
-          "_cid": "qopjnkbrIQ",
-          "_anchor": "features15-h",
+          "_name": "features6",
+          "_customHTML": "<section class=\"features6\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/06.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#8bcfed\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=C9e0q6kHHrs\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-3\">\n                    <span mbr-icon class=\"mbr-iconfont mbri-growing-chart\" style=\"color: rgb(39, 170, 224);\"></span>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                        ARIS Aware</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       ARIS Aware allows you to analyse all relevant data and visualize it in an intuitive  way. This helps you to make better decisions and to gain rich insights into your company.\n                    </p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-3\">\n                    <span mbr-icon class=\"mbr-iconfont mbri-link\" style=\"color: rgb(39, 170, 224);\"></span>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                        ARIS Connect</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Connect, communicate and collaborate on processes easily on a social network. No BPM experience is required.<br><br><br>\n                    </p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-3\">\n                    <span mbr-icon class=\"mbr-iconfont mbri-laptop\" style=\"color: rgb(39, 170, 224);\"></span>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                        ARIS for SAP</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Accelerate how you design, document and optimize your SAP solution. ARIS for SAP Solutions offers a fast, efficient way to map processes to your SAP solution.<br><br>\n                    </p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-3\">\n                    <span mbr-icon class=\"mbr-iconfont mbri-touch\" style=\"color: rgb(39, 170, 224);\"></span>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                        ARIS Mobile</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       With ARIS Mobile/API Access, you can develop your own personalized applications . Assure access to process information, anywhere and on any device.\n                    </p>\n                </div>\n            </div>\n\n        </div>\n\n    </div>\n\n</section>",
+          "_cid": "qovobL0LU1",
+          "_anchor": "features6-l",
           "_protectedParams": [],
           "_params": {}
         },
         {
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            ".modal-body .close": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
               "background": "#1b1b1b"
             },
-            ".modal-body .close span": {
-              "font-style": "normal"
-            },
-            ".carousel-inner > .active, .carousel-inner > .next, .carousel-inner > .prev": {
-              "display": "table"
-            },
-            ".carousel-control .icon-next, .carousel-control .icon-prev": {
-              "margin-top": "-18px",
-              "font-size": "40px",
-              "line-height": "27px"
-            },
-            ".carousel-control:hover": {
-              "background": "#1b1b1b",
-              "color": "#fff",
-              "opacity": "1"
-            },
-            "@media (max-width: 767px)": {
-              ".container .carousel-control": {
-                "margin-bottom": "0"
-              }
-            },
-            ".boxed-slider": {
-              "position": "relative",
-              "padding": "93px 0"
-            },
-            ".boxed-slider > div": {
-              "position": "relative"
-            },
-            ".container img": {
-              "width": "100%"
-            },
-            ".container img + .row": {
-              "position": "absolute",
-              "top": "50%",
+            ".mbr-slider .carousel-control-prev": {
               "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
               "right": "0",
-              "-webkit-transform": "translateY(-50%)",
-              "-moz-transform": "translateY(-50%)",
-              "transform": "translateY(-50%)",
-              "z-index": "2"
+              "margin-right": "2.5rem"
             },
-            ".mbr-section": {
-              "padding": "0",
-              "background-attachment": "scroll"
-            },
-            ".mbr-table-cell": {
-              "padding": "0"
-            },
-            ".container .carousel-indicators": {
-              "margin-bottom": "3px"
-            },
-            ".carousel-caption": {
-              "top": "50%",
-              "right": "0",
-              "bottom": "auto",
-              "left": "0",
-              "display": "flex",
-              "align-items": "center",
-              "-webkit-transform": "translateY(-50%)",
-              "transform": "translateY(-50%)"
-            },
-            ".mbr-overlay": {
-              "z-index": "1"
-            },
-            ".container-slide.container": {
-              "width": "100%",
-              "min-height": "100vh",
-              "padding": "0"
-            },
-            ".carousel-item": {
-              "background-position": "50% 50%",
-              "background-repeat": "no-repeat",
-              "background-size": "cover",
-              "-o-transition": "-o-transform 0.6s ease-in-out",
-              "-webkit-transition": "-webkit-transform 0.6s ease-in-out",
-              "transition": "transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out, -o-transform 0.6s ease-in-out",
-              "-webkit-backface-visibility": "hidden",
-              "backface-visibility": "hidden",
-              "-webkit-perspective": "1000px",
-              "perspective": "1000px",
-              ".container": {
-                "@media (max-width: 576px)": {
-                  "width": "100%"
-                }
-              }
-            },
-            ".carousel-item-next.carousel-item-left, .carousel-item-prev.carousel-item-right": {
-              "-webkit-transform": "translate3d(0, 0, 0)",
-              "transform": "translate3d(0, 0, 0)"
-            },
-            ".active.carousel-item-right, .carousel-item-next": {
-              "-webkit-transform": "translate3d(100%, 0, 0)",
-              "transform": "translate3d(100%, 0, 0)"
-            },
-            ".active.carousel-item-left, .carousel-item-prev": {
-              "-webkit-transform": "translate3d(-100%, 0, 0)",
-              "transform": "translate3d(-100%, 0, 0)"
-            },
-            ".mbr-slider": {
-              ".carousel-control": {
-                "top": "50%",
-                "width": "70px",
-                "height": "70px",
-                "margin-top": "-1.5rem",
-                "font-size": "35px",
-                "background-color": "rgba(0, 0, 0, 0.5)",
-                "border": "2px solid #fff",
-                "border-radius": "50%",
-                "transition": "all .3s",
-                "&.carousel-control-prev": {
-                  "left": "0",
-                  "margin-left": "2.5rem"
-                },
-                "&.carousel-control-next": {
-                  "right": "0",
-                  "margin-right": "2.5rem"
-                },
-                ".mbr-iconfont": {
-                  "font-size": "2rem"
-                },
-                "@media (max-width: 767px)": {
-                  "top": "auto",
-                  "bottom": "1rem"
-                }
-              },
-              ".carousel-indicators": {
-                "position": "absolute",
-                "bottom": "0",
-                "margin-bottom": "1.5rem !important",
-                "li": {
-                  "max-width": "20px",
-                  "height": "20px",
-                  "max-height": "20px",
-                  "margin": "3px",
-                  "background-color": "rgba(0, 0, 0, 0.5)",
-                  "border": "2px solid #fff",
-                  "border-radius": "50%",
-                  "opacity": ".5",
-                  "transition": "all .3s",
-                  "&.active, &:hover": {
-                    "opacity": ".9"
-                  },
-                  "&::after, &::before": {
-                    "content": "none"
-                  }
-                },
-                "&.ie-fix": {
-                  "left": "50%",
-                  "display": "block",
-                  "width": "60%",
-                  "margin-left": "-30%",
-                  "text-align": "center"
-                },
-                "@media (max-width: 576px)": {
-                  "display": "none !important"
-                }
-              },
-              "> .container": {
-                "img": {
-                  "width": "100%",
-                  "+ .row": {
-                    "position": "absolute",
-                    "top": "50%",
-                    "right": "0",
-                    "left": "0",
-                    "z-index": "2",
-                    "-moz-transform": "translateY(-50%)",
-                    "-webkit-transform": "translateY(-50%)",
-                    "transform": "translateY(-50%)"
-                  }
-                },
-                ".carousel-indicators": {
-                  "margin-bottom": "3px"
-                },
-                "@media (max-width: 576px)": {
-                  ".carousel-control": {
-                    "margin-bottom": "0"
-                  }
-                }
-              },
-              ".mbr-section": {
-                "padding": "0",
-                "background-attachment": "scroll"
-              },
-              ".mbr-table-cell": {
-                "padding": "0"
-              }
-            },
-            ".carousel-item .container.container-slide": {
-              "position": "initial",
-              "width": "auto",
-              "min-height": "0"
-            },
-            ".full-screen": {
-              ".slider-fullscreen-image": {
-                "min-height": "100vh",
-                "background-repeat": "no-repeat",
-                "background-position": "50% 50%",
-                "background-size": "cover",
-                "&.active": {
-                  "display": "-o-flex"
-                }
-              },
-              "& .container": {
-                "width": "auto",
-                "padding-right": "0",
-                "padding-left": "0"
-              },
-              ".carousel-item .container.container-slide": {
-                "width": "100%",
-                "min-height": "100vh",
-                "padding": "0",
-                "& > img": {
-                  "display": "none"
-                }
-              }
-            },
-            ".mbr-background-video-preview": {
-              "position": "absolute",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0"
-            },
-            ".mbr-overlay ~ .container-slide": {
-              "z-index": "auto"
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
             }
           },
-          "_name": "slider1",
-          "_customHTML": "<section class=\"carousel slide\" group=\"Sliders & Gallery\" plugins=\"YTPlayer,VimeoPlayer,SliderVideo,BootstrapCarouselSwipe\" data-interval=\"false\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\" inline>\n        <input type=\"carousel\" title=\"Slides\" name=\"slides\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-carousel=\"slides\" mbr-class=\"{'full-screen': fullScreen}\"></div>\n\n</section>",
-          "_cid": "qouBmGyRt7",
+          "_name": "gallery1",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#149dcc\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_cid": "qovsvZZrNx",
+          "_anchor": "gallery1-m",
           "_protectedParams": [
-            "slides__autoplay",
-            "slides__autoplayInterval",
-            "slides__showBullets",
-            "slides"
+            "gallery__all",
+            "gallery"
           ],
           "_params": {
-            "slides__autoplay": false,
-            "slides__autoplayInterval": 4000,
-            "slides__showBullets": true,
-            "slides": [
+            "gallery__all": "All",
+            "gallery": [
               {
-                "image": "@THEME_PATH@/components/_images/carousel/1.jpg",
-                "active": true,
-                "showButtons": false,
-                "showText": true,
-                "showTitle": true,
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-5",
-                "title": "FULL SCREEN SLIDER",
-                "overlay": true,
-                "contentAlign": "left",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "image": "@PROJECT_PATH@/assets/images/01-apama-streaming-analytics-web-tiles-250x330.png",
+                "thumb": "@PROJECT_PATH@/assets/images/01-apama-streaming-analytics-web-tiles-250x330-250x330.png",
+                "customStyle1": "display-7",
+                "caption": "<a href=\"http://www2.softwareag.com/corporate/products/apama_webmethods/analytics/default.aspx\" target=\"_blank\">STREAMING ANALYTICS</a><br>Analyse and act on high-volume, fast moving business operations and customer interactions in real-time.<br>",
+                "active": false
               },
               {
-                "image": "@THEME_PATH@/components/_images/carousel/2.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-5",
-                "title": "VIDEO SLIDE",
-                "overlay": true,
-                "contentAlign": "left",
-                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "image": "@THEME_PATH@/components/_images/carousel/3.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-5",
-                "title": "IMAGE SLIDE",
-                "overlay": true,
-                "contentAlign": "right",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "image": "@PROJECT_PATH@/assets/images/02-apama-predictive-analytics-web-tiles-250x330.png",
+                "thumb": "@PROJECT_PATH@/assets/images/02-apama-predictive-analytics-web-tiles-250x330-250x330.png",
+                "customStyle1": "display-7",
+                "caption": "<a href=\"http://www2.softwareag.com/corporate/products/apama_webmethods/zementis/default.aspx\" target=\"_blank\">PREDICTIVE ANALYTICS&nbsp;</a><br>G<a href=\"http://www2.softwareag.com/corporate/products/apama_webmethods/zementis/default.aspx\" target=\"_blank\" class=\"text-white\">lean real-time insights from any amount of data, anywhere, anytime, to make informed business decisions.<br></a>",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/06-mashzone-web-tile-250x330.png",
+                "thumb": "@PROJECT_PATH@/assets/images/06-mashzone-web-tile-250x330-250x330.png",
+                "customStyle1": "display-7",
+                "caption": "<a href=\"http://www.softwareag.com/corporate/products/apama_webmethods/analytics/products/mashzone_ba/overview/default.asp\" target=\"_blank\">DATA VISUALISATION</a><br>People across your enterprise can create insightful dashboards directly from live information sources.<br>",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/analyticsdecisions-lp-op-intelligence-tile-250x330.png",
+                "thumb": "@PROJECT_PATH@/assets/images/analyticsdecisions-lp-op-intelligence-tile-250x330-250x330.png",
+                "customStyle1": "display-7",
+                "caption": "<a href=\"http://www2.softwareag.com/corporate/products/apama_webmethods/intelligence/default.aspx\" target=\"_blank\">OPERATIONAL INTELLIGENCE</a><br>Build real-time monitoring into your solutions and business processes to get deep insight on the systems running them.<br>",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sag-webmethods-optimize-process-banner-may17-250x330.png",
+                "thumb": "@PROJECT_PATH@/assets/images/sag-webmethods-optimize-process-banner-may17-250x330-250x330.png",
+                "customStyle1": "display-7",
+                "caption": "<a href=\"http://www2.softwareag.com/corporate/products/process/bpm/default.aspx\" target=\"_blank\">PROCESS AUTOMATION</a><br>By eliminating manual activities and inconsistent processes, you can increase productivity, improve accountability and reduce errors.<br>",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/02-free-trial-web-tiles-250x330.png",
+                "thumb": "@PROJECT_PATH@/assets/images/02-free-trial-web-tiles-250x330-250x330.png",
+                "customStyle1": "display-7",
+                "caption": "<a href=\"http://www2.softwareag.com/corporate/products/process/agileapps/default.aspx\" target=\"_blank\">AGILE APPLICATIONS</a><br>A new generation application platform that empowers enterprises to visually create situational and case management applications.<br>",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sag-webmethods-optimize-infrastructure-banner-may17-250x330.png",
+                "thumb": "@PROJECT_PATH@/assets/images/sag-webmethods-optimize-infrastructure-banner-may17-250x330-250x330.png",
+                "customStyle1": "display-7",
+                "caption": "<a href=\"http://www2.softwareag.com/corporate/products/webmethods_integration/integration/default.aspx\" target=\"_blank\">APPLICATION INTEGRATION</a><br>Integrate systems on-premises, in the cloud or in a hybrid combination and gain the flexibility you need for your digital enterprise.&nbsp;<br>",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/free-trial-recommended-resources-tridion-250x330.png",
+                "thumb": "@PROJECT_PATH@/assets/images/free-trial-recommended-resources-tridion-250x330-250x330.png",
+                "customStyle1": "display-7",
+                "caption": "<a href=\"http://www2.softwareag.com/corporate/products/webmethods_integration/api/default.aspx\" target=\"_blank\">API MANAGEMENT</a><br>APIs enable companies to provide new sales channels, extend customer reach, and add new sources of revenue using their unique data and services.<br>",
+                "active": true
               }
             ]
-          },
-          "_anchor": "slider1-j"
+          }
         },
         {
           "_styles": {
@@ -1212,7 +937,7 @@
             }
           },
           "_name": "footer4",
-          "_customHTML": "<section class=\"footer4\" group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected>6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content mbr-white\">\n            <div class=\"col-md-3 col-sm-4\">\n                <div class=\"mb-3 img-logo\">\n                    <a href=\"https://mobirise.com/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/icons-map-and-location36-500x500.png\" alt=\"Mobirise\" title>\n                    </a>\n                </div>\n                <p class=\"mb-3 mbr-fonts-style foot-title\" mbr-theme-style=\"display-7\" data-app-selector=\".foot-title\">\n                    MOBIRISE\n                </p>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                    About Us\n                    <br><a href=\"#\" class=\"text-white\">Services</a>\n                    <br><a href=\"#\" class=\"text-white\">Selected Work</a>\n                    <br><a href=\"#\" class=\"text-white\">Get In Touch</a>\n                </p>\n            </div>\n            <div class=\"col-md-4 col-sm-8\">\n                <p class=\"mb-4 foot-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".foot-title\">\n                    RECENT NEWS\n                </p>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                    Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.\n                    <br>\n                    <br><br></p>\n            </div>\n            <div class=\"col-md-4 offset-md-1 col-sm-12\">\n                <p class=\"mb-4 foot-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".foot-title\">\n                    SUBSCRIBE\n                </p>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                    Get monthly updates and free resources.\n                </p>\n                <div class=\"mb-5\" data-form-type=\"formoid\">\n                    <div data-form-alert=\"true\">\n                        <div mbr-text=\"form.alerts.success\" hidden data-form-alert-success=\"true\"></div>\n                    </div>\n                    <form mbr-form=\"form\" class=\"mbr-form\" action=\"https://mobirise.com/\" method=\"post\">\n                        <input type=\"hidden\" value data-form-email=\"true\">\n                        <div class=\"mbr-subscribe mbr-subscribe-dark input-group\">\n                            <input type=\"email\" class=\"form-control\" name=\"email\" required mbr-placeholder=\"form.fields.email.customTitle\" data-form-field=\"Email\">\n                            <span data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn mx-2\" mbr-buttons>\n                            <a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-primary\">Subscribe</a>\n                            </span>\n                        </div>\n                    </form>\n                </div>\n                <p class=\"mb-4 mbr-fonts-style foot-title\" mbr-theme-style=\"display-7\" data-app-selector=\".foot-title\">\n                    CONNECT WITH US\n                </p>\n                <div class=\"social-list pl-0 mb-0\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-12 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2017 Software AG - All Rights Reserved\n                    </p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n",
+          "_customHTML": "<section class=\"footer4\" group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content mbr-white\">\n            <div class=\"col-md-3 col-sm-4\">\n                <div class=\"mb-3 img-logo\">\n                    <a href=\"https://mobirise.com/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/icons-map-and-location36-500x500.png\" alt=\"Mobirise\" title>\n                    </a>\n                </div>\n                <p class=\"mb-3 mbr-fonts-style foot-title\" mbr-theme-style=\"display-7\" data-app-selector=\".foot-title\">\n                    Software AG</p>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\"></p><p><a href=\"http://www2.softwareag.com/corporate/company/default.aspx\" target=\"_blank\">Company</a><br><a href=\"https://marketplace.softwareag.com/home\" target=\"_blank\">Marketplace</a><a href=\"#\" class=\"text-white\"></a>\n                    <br><a href=\"http://www2.softwareag.com/corporate/services/default.aspx\" target=\"_blank\">Services</a><a href=\"#\" class=\"text-white\"></a>\n                </p><p></p>\n            </div>\n            <div class=\"col-md-4 col-sm-8\">\n                <p class=\"mb-4 foot-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".foot-title\">\n                    ABOUT US</p>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                    With over 45 years of customer-centric innovation, Software AG is ranked as a leader in many innovative and digital technology categories. Software AG has more than 4,500 employees, is active in 70 countries and had revenues of €872 million in 2016.                    <br>\n                    <br><br></p>\n            </div>\n            <div class=\"col-md-4 offset-md-1 col-sm-12\">\n                <p class=\"mb-4 foot-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".foot-title\">\n                    SUBSCRIBE\n                </p>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                    Get monthly updates and free resources.\n                </p>\n                <div class=\"mb-5\" data-form-type=\"formoid\">\n                    <div data-form-alert=\"true\">\n                        <div mbr-text=\"form.alerts.success\" hidden data-form-alert-success=\"true\"></div>\n                    </div>\n                    <form mbr-form=\"form\" class=\"mbr-form\" action=\"https://softwareag.com\" method=\"post\">\n                        <input type=\"hidden\" value data-form-email=\"true\">\n                        <div class=\"mbr-subscribe mbr-subscribe-dark input-group\">\n                            <input type=\"email\" class=\"form-control\" name=\"email\" required mbr-placeholder=\"form.fields.email.customTitle\" data-form-field=\"Email\">\n                            <span data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn mx-2\" mbr-buttons>\n                            <a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Subscribe</a>\n                            </span>\n                        </div>\n                    </form>\n                </div>\n                <p class=\"mb-4 mbr-fonts-style foot-title\" mbr-theme-style=\"display-7\" data-app-selector=\".foot-title\">\n                    CONNECT WITH US\n                </p>\n                <div class=\"social-list pl-0 mb-0\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://twitter.com/softwareag\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"color: rgb(4, 178, 224);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/SoftwareAG/\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\" style=\"color: rgb(4, 178, 224);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/user/SOFTWAREAG\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\" style=\"color: rgb(4, 178, 224);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://www.linkedin.com/company-beta/2829/\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-linkedin socicon\" style=\"color: rgb(4, 178, 224);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-12 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2017 Software AG - All Rights Reserved\n                    </p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n",
           "_cid": "qopeljZIbK",
           "_anchor": "footer4-e",
           "_protectedParams": [],

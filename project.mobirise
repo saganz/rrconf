@@ -29,7 +29,7 @@
       }
     },
     "favicon": "",
-    "noImageResize": "",
+    "noImageResize": "true",
     "versionFirst": "4.0.10",
     "uniqCompNum": 70,
     "versionPublish": "4.0.10",

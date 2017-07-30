@@ -28,7 +28,7 @@
         "isScrollToTopButton": true
       }
     },
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/images.png",
     "noImageResize": "true",
     "versionFirst": "4.0.10",
     "uniqCompNum": 70,
